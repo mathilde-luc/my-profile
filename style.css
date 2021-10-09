@@ -1,0 +1,237 @@
+body{ 
+	margin: 0;
+	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+	background: #8BA993;}
+
+h1,h2,h3{ font-family: Roboto; }
+
+ /* Home border */
+.banner{ 
+	position: fixed;
+    width: 100%;
+    height: 145px;
+    top: 0;
+    background: #3D5A5E;
+}
+/* Home pp */
+.banner img{ 
+	border-radius: 50%; 
+	height: 125px;
+	width: 125px;
+	position: absolute;
+	margin: 10px;
+	}
+.banner img:hover{ 
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.9); 
+	}
+
+
+.banner h1{
+	/* main header */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 47px;
+	/* identical to box height */
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 24.44%;
+	right: 55.83%;
+	top: 35.17%;
+	bottom: 35.17%;
+	color: #DFE3DD;
+	width: 100%;}
+
+
+
+p{ font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	color: #384A55; 
+	text-align: justify;
+	line-height: 150%;
+	}
+
+
+h3{ 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #DFE3DD;}
+
+
+a{ font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #DFE3DD;
+	text-decoration: none;
+	transition: color 0.3s ease;
+ }
+
+a:hover {
+  color: #DFE3DD;
+  text-decoration: underline;
+}
+
+.link-style{
+	float: right;
+    margin-right: 35PX;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link-style a {
+	font-size: 50px;
+}
+
+.link-style a:hover{
+		font-size: 50px;
+		opacity: 50%;
+}
+
+/*#FacebookLink{ position: absolute;
+	left: 83.75%;
+	right: 13.47%;
+	top: 39.31%;
+	bottom: 40%;
+ }
+#LinkedinLink { position: absolute;
+	left: 87.57%;
+	right: 9.65%;
+	top: 39.31%;
+	bottom: 40%;
+  }
+  */
+
+.article-container {
+	display:grid;
+	gap: 5rem;
+	justify-content: center;
+	margin: 200px;
+	}
+
+.banner2{ 
+	width: 814px;
+	height: 170px;
+	display: flex;
+	flex-direction: column;}
+
+.banner2 h2{ /* Headers 2 */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	color: #384A55; 
+	text-align: center;
+	margin: 15px;
+}
+.banner2 p{ 
+	height: 102px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	 }
+
+#link-button {
+	background: #3D5A5E;
+	padding: 15px 32px;
+	font-size: 16px;
+    border-radius: 40px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-weight: lighter;
+    width: 172px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobs{
+	background: #598079;
+	border-radius: 8px;
+	width: 814px;
+	height: 310px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	 }
+
+ .jobs h3{/* title catégo */
+	text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;}
+
+
+.jobs-content { 
+	background: #DFE3DD;
+	border-radius: 10px;
+	height: 212px;
+    width: 782px;
+    left: 16px;
+    top: -19px;
+	margin-left: 16px ;
+	display: flex;
+	}
+
+.TEXT-AREA{ 
+	margin: 24px;
+    WIDTH: 350PX;
+    HEIGHT: 160PX;
+    overflow: scroll; }
+
+.jobs-picture { 
+	height: 190px;
+	width: 380px;
+	right: 11px;
+	bottom: 11px;
+    left: 394px;
+    top: -197px;
+     }
+
+.jobs-image { 
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+	margin-top: 11px;
+    margin-left: -6px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.jobs-image:hover{
+ 	transform: scale(1.15);}
+
+ 	html{
+ 		cursor: url(images/J1.png), auto;
+ 	}
+
+/*.zoom { 
+	padding: 50px;
+	background: green;
+  	transition: transform .2s;
+  	width: 200px;
+  	height: 200px;
+  	margin: 0 auto;
+ }
+ /*.zoom:hover{
+ 	transform: scale(1.5);
+ }
+
+    /*<a href="facebook" target="_blank" id="FacebookLink">
+			<i class="fab fa-facebook-square"> </i> </a>
+		<a href="Linkedin" target="_blank" id="LinkedinLink">
+			<i class="fab fa-linkedin"> </i> </a>
+
+
+
+
+
+
